@@ -18,8 +18,11 @@
 }
 
 .Hyperlien{
+    padding: 10px 10px 10px 10px;
     list-style: none;
     text-decoration: none;
+    background-color: black;
+    ;
 }
 .soixente{
     width: 70%;
@@ -68,8 +71,8 @@ section div a {
     font-style: normal;
   }
 
-  p:hover{
-    text-decoration: overline;
+  h1:hover{
+    background-color: gold;
 
 
   }
@@ -108,8 +111,8 @@ section div a {
     
 }
 #banner{
-    height: 500px;
-    width: 1500px;
+    height: 600px;
+    width: 100%;
 }
 .black{
     background-color: black;
@@ -148,6 +151,10 @@ section div a {
         width: 100px;
     
     }
+    #section2{
+        flex-direction: column;
+
+    }
 
 }
 .sixtyfour{
@@ -161,3 +168,26 @@ section div a {
       "XELA" 0,
       "YELA" 0;
   }
+  ul {
+    list-style: none;
+
+  }
+
+.blanc{
+    color: white;
+}
+  
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.centre{
+    padding-top: 40px;
+}
+.decale {
+    padding-left: 50px;
+}
