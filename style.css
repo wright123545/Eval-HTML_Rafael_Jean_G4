@@ -1,0 +1,163 @@
+.d-flex {
+    display: flex;
+}
+
+.justifycontentbetween {
+    justify-content: space-between;
+}
+.border{
+    border: 2px solid black
+}
+#logo{
+    height: 80px;
+
+}
+
+.bibi {
+    align-items: center;
+}
+
+.Hyperlien{
+    list-style: none;
+    text-decoration: none;
+}
+.soixente{
+    width: 70%;
+    
+}
+.w-50{
+    width: 50%;
+}
+nav ul li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.justifycontentcenter{
+    justify-content: center;
+}
+
+.FlexC{
+    flex-direction: column;
+}
+
+
+ section div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+section div p {
+    padding-left: 20px;
+}
+section div H1 {
+    padding-left: 20px;
+}
+section div a {
+    padding-left: 20px;
+}
+.tc{
+    text-align: center;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  p:hover{
+    text-decoration: overline;
+
+
+  }
+
+.gris {
+    background-color: rgb(50, 50, 60);
+}
+.jaune{
+    background-color: gold;
+}
+#section2 {
+   margin-top: 20px;
+}
+
+.grisC {
+    background-color: rgb(100, 100, 100);
+}
+.grisMid {
+    background-color: rgb(70, 70, 70);
+
+
+}
+
+.pad{
+    padding: 20px 50px 20px 200px;
+}
+
+
+#Image{
+    height: 700px;
+    width: 500px;
+}
+
+.alignBetween{
+    align-content: space-between;
+    
+}
+#banner{
+    height: 500px;
+    width: 1500px;
+}
+.black{
+    background-color: black;
+}
+#logo2{
+    height: 50px;
+    border-color: goldenrod;
+}
+
+@media screen and (max-width: 800px){
+    #banner{
+        height: 200px;
+        width: 500px;
+    
+    }
+    .pad{
+        padding: 20px 20px 20px 20px;
+    }
+    iframe{
+        height: 200px;
+        width: 300px;
+    }
+    #gif{
+    height: 100px;
+    width: 200px;
+    
+    }
+
+    
+    #ImageD{
+        height: 100px;
+        width: 200px;
+    }
+    #Image{
+        height: 200px;
+        width: 100px;
+    
+    }
+
+}
+.sixtyfour{
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+  }
